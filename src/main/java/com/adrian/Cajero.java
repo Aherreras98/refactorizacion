@@ -8,7 +8,7 @@ package com.adrian;
  * @see java.util.Scanner
  */
 public class Cajero {
-    double saldo;
+    public double saldo;
     double totalIngresos;
     double totalRetiros;
     int numIngresos;
@@ -27,6 +27,8 @@ public class Cajero {
         this.numIngresos = 0;
         this.numRetiros = 0;
     }
+
+    public void metodoInutil() {}
 
     /**
      * Controla el flujo principal del programa, mostrando el menú y gestionando las opciones seleccionadas.
